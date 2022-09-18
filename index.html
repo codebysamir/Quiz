@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" charset="utf-8" defer></script>
+
+  <title>Quiz App</title>
+</head>
+<body>
+  <div id="quizContainer"class="quiz-container">
+    <h2 id="question">hello mofos?</h2>
+      <sub>Wähle die korrekte Antwort aus.</sub>
+    <form action="" id="myForm">
+      <input type="radio" id="a" name="fav_language" value="answerA" required>
+      <label for="a" id="answerA">First name:</label><br>
+      <input type="radio" id="b" name="fav_language" value="answerB" required>
+      <label for="b" id="answerB">First name:</label><br>
+      <input type="radio" id="c" name="fav_language" value="answerC" required>
+      <label for="c" id="answerC">First name:</label><br>
+      <input type="radio" id="d" name="fav_language" value="answerD" required>
+      <label for="d" id="answerD">First name:</label><br>
+      <input type="submit" value="Weiter" class="sub-btn">
+    </form>
+  </div>
+  <div id="quizResultContainer" class="quiz-container result">
+    <h2 class="result">Quiz beendet!</h2>
+    <p class="result" id="result-text">text</p>
+    <button class="result sub-btn" id="result-button">Quiz neustarten</button>
+  </div>
+</body>
+</html>

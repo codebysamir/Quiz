@@ -1,0 +1,5 @@
+- quiz Datenbank erstellen (Frage,antwort1,antwort2,antwort3,korrekte antwort)
+- selektieren funktion
+- weiter button für neue frage
+- ausgewählte antwort darf bei der nächsten frage nicht noch angewählt sein.
+- Endresultat anzeigen
